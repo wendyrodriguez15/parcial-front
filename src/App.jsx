@@ -31,7 +31,7 @@ function App() {
     border: 'solid 1px gray', 
     borderRadius: '10px',
     width: '50%',
-    color: 'blue'
+    color: 'black'
   }
 
   return (
