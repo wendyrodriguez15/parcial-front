@@ -1,8 +1,11 @@
 import React from 'react'
 
-const Card = () => {
+const Card = (nombre, animal) => {
   return (
-    <div>Hola, soy una tarjeta</div>
+    <>
+    <p>Hola {nombre}!</p>
+    <p>Sabemos que tu animal favorito es: {animal} </p>
+</>
   )
 };
 export default Card;
